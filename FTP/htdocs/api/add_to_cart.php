@@ -1,0 +1,1 @@
+<?php require_once __DIR__.'/../includes/functions.php'; if($_SERVER['REQUEST_METHOD']!=='POST'){http_response_code(400);exit;} $id = intval($_POST['id']??0); if($id<=0){http_response_code(400);exit;} cart_add($id,1); echo json_encode(['ok'=>1]); ?>
