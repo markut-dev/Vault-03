@@ -1,0 +1,12 @@
+<?php
+$a='c2Vzc2lvbl9zdGFydCgpOw==';
+$b='c2Vzc2lvbl91bnNldCgpOw==';
+$c='c2Vzc2lvbl9kZXN0cm95KCk7';
+$d='aGVhZGVyKCJMb2NhdGlvbjogL2luZGV4LnBocCNsb2dpbi5waHAiKTs=';
+$e='ZXhpdDs=';
+eval(base64_decode($a));
+eval(base64_decode($b));
+eval(base64_decode($c));
+eval(base64_decode($d));
+eval(base64_decode($e));
+?>
