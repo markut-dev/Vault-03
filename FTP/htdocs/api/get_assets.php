@@ -1,0 +1,1 @@
+<?php require_once __DIR__.'/../includes/s.php'; $rows = $pdo->query('SELECT id,name,description,cover_img,file_path,price FROM assets ORDER BY id DESC')->fetchAll(); header('Content-Type: application/json'); echo json_encode($rows); ?>
