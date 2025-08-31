@@ -11,3 +11,18 @@ node_modules/
 # IDE / editor
 .vscode/
 .idea/
+
+# Build
+bin-debug/
+bin-release/
+[Oo]bj/
+[Bb]in/
+
+# files and folders
+.settings/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
