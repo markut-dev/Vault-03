@@ -1,0 +1,13 @@
+# Database files
+*.db
+*.sql
+
+# Logs
+*.log
+
+# Node / frontend (si aplica)
+node_modules/
+
+# IDE / editor
+.vscode/
+.idea/
