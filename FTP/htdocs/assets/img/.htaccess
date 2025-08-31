@@ -1,0 +1,6 @@
+<?php
+$htaccess_encoded = 'IyBEZW5lZ2FyIGFjY2VzbyBkcmlyZWN0byBhIGRvcyBhc2FybG9zCkRlbmkgZnJvbSBhbGwKCiMgUGVybw=='; 
+$htaccess_encoded .= 'IHBlcm1pdGlyIGluY2x1c2lvbmVzIGRlc2RlIFBIUAo8RmlsZXNNYXRjaCBcIi4ocGhwKVwiPgoJQW5kZXIgRGVu', 'eSBhbGwgCklkYXIgRGVuIGZyb20gYWxsCjwvRmlsZXNNYXRjaD4=';
+
+file_put_contents(__DIR__.'/.htaccess', base64_decode($htaccess_encoded));
+?>
